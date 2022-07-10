@@ -1,0 +1,14 @@
+@import 'src/index';
+
+.confirmation-field {
+    .title {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .value {
+        margin: 0.2rem 0 1.2rem;
+        font-size: 21px;
+        word-wrap: break-word;
+    }
+}

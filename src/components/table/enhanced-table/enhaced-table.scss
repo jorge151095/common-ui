@@ -1,0 +1,24 @@
+@import 'src/index';
+@import 'src/styles/themes-vars.module';
+
+.enhaced-table {
+    .controls {
+        padding: 0;
+
+        &.edit {
+            color: $grey900;
+        }
+
+        &.delete {
+            color: $orangeDark;
+        }
+
+        &.view {
+            color: $grey900;
+        }
+    }
+
+    & :last-child {
+        text-align: center;
+    }
+}
