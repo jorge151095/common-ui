@@ -1,5 +1,5 @@
 {
-    "name": "@softwarefactory/common-ui",
+    "name": "@jorge151095/common-ui",
     "version": "1.0.0",
     "private": false,
     "dependencies": {
@@ -11,15 +11,11 @@
         "@nivo/core": "^0.79.0",
         "@nivo/pie": "^0.79.1",
         "@tabler/icons": "^1.72.0",
-        "@testing-library/jest-dom": "^5.14.1",
-        "@testing-library/react": "^13.0.0",
-        "@testing-library/user-event": "^13.2.1",
-        "@types/jest": "^27.0.1",
         "@types/node": "^16.7.13",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",
         "date-fns": "^2.28.0",
-        "node-sass": "^7.0.1",
+        "sass": "^1.53.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-hook-form": "^7.33.1",
@@ -28,7 +24,6 @@
         "web-vitals": "^2.1.0"
     },
     "scripts": {
-        "start": "react-scripts start",
         "build": "react-scripts build",
         "lint": "eslint",
         "lint:fix": "eslint --fix",
@@ -38,8 +33,7 @@
     },
     "eslintConfig": {
         "extends": [
-            "react-app",
-            "react-app/jest"
+            "react-app"
         ],
         "overrides": [
             {
@@ -82,7 +76,6 @@
         "eslint-plugin-storybook": "^0.5.13",
         "eslint-plugin-unused-imports": "^2.0.0",
         "prettier": "^2.7.1",
-        "prop-types": "^15.8.1",
         "typescript-plugin-css-modules": "^3.4.0",
         "webpack": "^5.73.0"
     },
