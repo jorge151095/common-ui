@@ -1,0 +1,17 @@
+@import 'src/index';
+
+.icon-contanainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-label {
+    font-size: 14px;
+    word-wrap: break-word;
+    max-width: min-content;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+}
